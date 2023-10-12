@@ -1,0 +1,44 @@
+.Banner {
+  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
+    url("https://imagizer.imageshack.com/img924/5189/bXUrZV.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  position: relative;
+  z-index: -1;
+  color: #fff;
+}
+
+.Banner_txt {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.Banner_txt p {
+  margin-top: 5%;
+}
+
+button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #8bb8c1;
+  color: #fff;
+  border-radius: 20px;
+  text-decoration: none;
+  text-align: center;
+  cursor: pointer;
+  border: 1px solid transparent;
+  margin-top: 7%;
+  font-weight: bold;
+}
+
+@media (min-width: 2560px) {
+  .Banner_txt {
+    font-size: 40px;
+  }
+}
+
